@@ -23,7 +23,6 @@ const PASOS: Paso[] = [
   {
     numero: "02",
     titulo: "Postulación",
-    href="mailto:audicoop@gmail.com",
     descripcion:
       `Envía tu hoja de vida a ${process.env.NEXT_PUBLIC_CONTACT_EMAIL ?? "audicoop@gmail.com"} indicando el cargo al que aplicas. Asegúrate de incluir tu formación académica, experiencia profesional y certificaciones relevantes en auditoría, contabilidad o áreas afines.`,
   },
