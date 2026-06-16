@@ -82,7 +82,7 @@ export default function IndicadoresBanner() {
               <p className="font-heading text-[9px] font-bold uppercase tracking-[0.18em] text-white/30 mb-1 leading-none">
                 {ind.etiqueta}
               </p>
-              <p className="font-display text-lg font-bold text-white leading-none mb-1">
+              <p className="font-title text-lg font-bold text-white leading-none mb-1">
                 {ind.valor}
               </p>
               <p className="font-body text-[11px] text-white/35 leading-snug">

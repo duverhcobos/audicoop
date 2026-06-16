@@ -20,7 +20,7 @@ export default function ValuesSection() {
             </div>
             <h2
               id="values-title"
-              className="font-display text-4xl font-bold text-white leading-tight sm:text-5xl"
+              className="font-title text-4xl font-bold text-white leading-tight sm:text-5xl"
             >
               Principios que nos guían
             </h2>

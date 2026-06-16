@@ -129,7 +129,7 @@ export default function CalendarioTributario() {
             </div>
             <h2
               id="calendario-title"
-              className="font-display text-3xl font-bold text-brand-ink leading-tight lg:text-4xl"
+              className="font-title text-3xl font-bold text-brand-ink leading-tight lg:text-4xl"
             >
               Vencimientos tributarios y obligaciones fiscales
             </h2>
@@ -144,7 +144,7 @@ export default function CalendarioTributario() {
                 {/* Número + título */}
                 <div className="lg:col-span-4 bg-white p-8 lg:p-10">
                   <span
-                    className="font-display text-6xl font-bold text-brand-green/[0.07] leading-none select-none block mb-4"
+                    className="font-title text-6xl font-bold text-brand-green/[0.07] leading-none select-none block mb-4"
                     aria-hidden="true"
                   >
                     {ob.numero}

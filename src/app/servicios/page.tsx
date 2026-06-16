@@ -4,6 +4,7 @@ import { ArrowRight } from "lucide-react";
 import PageHero from "@/components/layout/PageHero";
 import ServiceDetailFull from "@/components/ui/ServiceDetailFull";
 import CtaSection from "@/components/sections/CtaSection";
+import AplicativosIA from "@/components/sections/AplicativosIA";
 import { SERVICES } from "@/lib/data/services";
 
 export const metadata: Metadata = {
@@ -50,7 +51,7 @@ export default function ServiciosPage() {
                     ¿Necesita asesoría?
                   </span>
                 </div>
-                <p className="font-display text-lg font-bold text-white leading-snug">
+                <p className="font-title text-lg font-bold text-white leading-snug">
                   Cuéntenos sobre su organización
                 </p>
                 <p className="mt-1 font-body text-sm text-white/50">
@@ -73,6 +74,7 @@ export default function ServiciosPage() {
         </div>
       </section>
 
+      <AplicativosIA />
       <CtaSection />
     </>
   );

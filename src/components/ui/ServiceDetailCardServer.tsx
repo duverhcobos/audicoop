@@ -16,7 +16,7 @@ export default function ServiceDetailCard({ service, index = 0 }: ServiceDetailC
   const header = (
     <>
       {/* Número de servicio */}
-      <span className="font-display text-2xl font-bold text-brand-green/20 leading-none shrink-0 w-8">
+      <span className="font-title text-2xl font-bold text-brand-green/20 leading-none shrink-0 w-8">
         {num}
       </span>
 

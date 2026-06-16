@@ -76,7 +76,7 @@ export default function TrabajaProceso() {
           </div>
           <h2
             id="proceso-title"
-            className="font-display text-3xl font-bold text-brand-ink leading-tight lg:text-4xl"
+            className="font-title text-3xl font-bold text-brand-ink leading-tight lg:text-4xl"
           >
             Claro, estructurado y transparente
           </h2>
@@ -92,7 +92,7 @@ export default function TrabajaProceso() {
               {/* Número */}
               <div className="lg:col-span-2 bg-brand-cream p-8 flex items-start justify-between lg:flex-col lg:justify-start lg:gap-4">
                 <span
-                  className="font-display text-5xl font-bold text-brand-green/[0.12] leading-none select-none"
+                  className="font-title text-5xl font-bold text-brand-green/[0.12] leading-none select-none"
                   aria-hidden="true"
                 >
                   {paso.numero}

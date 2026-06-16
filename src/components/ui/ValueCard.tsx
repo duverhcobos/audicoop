@@ -15,7 +15,7 @@ export default function ValueCard({ value, index = 0 }: ValueCardProps) {
     <article className="group relative bg-brand-green p-8 lg:p-10 overflow-hidden transition-colors duration-500 hover:bg-brand-green-medium">
       {/* Número fantasma de fondo */}
       <span
-        className="absolute -bottom-3 -right-2 font-display text-9xl font-bold text-white/[0.04] select-none leading-none"
+        className="absolute -bottom-3 -right-2 font-title text-9xl font-bold text-white/[0.04] select-none leading-none"
         aria-hidden="true"
       >
         {num}

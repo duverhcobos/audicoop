@@ -37,7 +37,7 @@ export default function CtaSection() {
             </div>
             <h2
               id="cta-title"
-              className="font-display font-bold text-white leading-[1.04]"
+              className="font-title font-bold text-white leading-[1.04]"
               style={{ fontSize: "clamp(2.5rem, 5vw, 4.5rem)" }}
             >
               ¿Listo para fortalecer el control en su organización?

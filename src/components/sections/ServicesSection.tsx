@@ -22,7 +22,7 @@ export default function ServicesSection() {
             </div>
             <h2
               id="services-title"
-              className="font-display text-4xl font-bold text-brand-green leading-tight sm:text-5xl"
+              className="font-title text-4xl font-bold text-brand-green leading-tight sm:text-5xl"
             >
               Lo que hacemos
             </h2>

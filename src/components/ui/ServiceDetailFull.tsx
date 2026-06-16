@@ -30,7 +30,7 @@ export default function ServiceDetailFull({ service, index }: ServiceDetailFullP
         <div className="lg:col-span-4">
           {/* Número fantasma */}
           <span
-            className="block select-none font-display text-8xl font-bold leading-none text-brand-green/[0.07]"
+            className="block select-none font-title text-8xl font-bold leading-none text-brand-green/[0.07]"
             aria-hidden="true"
           >
             {num}
@@ -43,7 +43,7 @@ export default function ServiceDetailFull({ service, index }: ServiceDetailFullP
           </div>
 
           {/* Título */}
-          <h3 className="mt-5 font-display text-xl font-bold leading-snug text-brand-ink">
+          <h3 className="mt-5 font-title text-xl font-bold leading-snug text-brand-ink">
             {service.title}
           </h3>
 

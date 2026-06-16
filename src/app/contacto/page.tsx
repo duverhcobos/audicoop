@@ -60,7 +60,7 @@ export default function ContactoPage() {
                 </div>
                 <h2
                   id="contacto-title"
-                  className="font-display text-2xl font-bold text-white leading-snug"
+                  className="font-title text-2xl font-bold text-white leading-snug"
                 >
                   Estamos en Bucaramanga, Santander.
                 </h2>

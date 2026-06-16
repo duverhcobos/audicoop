@@ -48,7 +48,7 @@ export default function NosotrosCultura() {
 
             <h2
               id="cultura-title"
-              className="font-display text-3xl font-bold text-white leading-tight mb-8 lg:text-4xl"
+              className="font-title text-3xl font-bold text-white leading-tight mb-8 lg:text-4xl"
             >
               Trabajar en AUDICOOP es trabajar con propósito.
             </h2>
@@ -80,7 +80,7 @@ export default function NosotrosCultura() {
                 >
                   {/* Número fantasma */}
                   <span
-                    className="font-display text-4xl font-bold text-white/[0.05] leading-none shrink-0 select-none"
+                    className="font-title text-4xl font-bold text-white/[0.05] leading-none shrink-0 select-none"
                     aria-hidden="true"
                   >
                     {String(i + 1).padStart(2, "0")}

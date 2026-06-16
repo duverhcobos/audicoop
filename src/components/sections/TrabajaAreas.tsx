@@ -59,7 +59,7 @@ export default function TrabajaAreas() {
           </div>
           <h2
             id="areas-title"
-            className="font-display text-3xl font-bold text-brand-ink leading-tight lg:text-4xl"
+            className="font-title text-3xl font-bold text-brand-ink leading-tight lg:text-4xl"
           >
             Antes de postularte, conoce el perfil de cada área
           </h2>
@@ -75,7 +75,7 @@ export default function TrabajaAreas() {
               {/* Número + título */}
               <div className="lg:col-span-4 bg-brand-cream p-8 lg:p-10 flex flex-col justify-between">
                 <span
-                  className="font-display text-7xl font-bold text-brand-green/[0.07] leading-none select-none"
+                  className="font-title text-7xl font-bold text-brand-green/[0.07] leading-none select-none"
                   aria-hidden="true"
                 >
                   {area.numero}

@@ -45,7 +45,7 @@ export default function HeroSection() {
         aria-hidden="true"
       >
         <span
-          className="font-display font-bold text-white leading-none pb-8 pr-4 lg:pr-8"
+          className="font-title font-bold text-white leading-none pb-8 pr-4 lg:pr-8"
           style={{ fontSize: "clamp(5rem, 18vw, 22rem)", opacity: 0.025 }}
         >
           AUDICOOP
@@ -75,7 +75,7 @@ export default function HeroSection() {
             {/* Titular */}
             <h1
               id="hero-title"
-              className="font-display font-bold text-white leading-[1.04]"
+              className="font-title font-bold text-white leading-[1.04]"
               style={{ fontSize: "clamp(2.75rem, 6vw, 5rem)" }}
             >
               Control.
@@ -125,7 +125,7 @@ export default function HeroSection() {
                 <p className="font-heading text-[10px] font-bold uppercase tracking-[0.2em] text-brand-gold mb-2">
                   Perfil de la firma
                 </p>
-                <p className="font-display text-2xl font-bold text-white leading-tight">
+                <p className="font-title text-2xl font-bold text-white leading-tight">
                   AUDICOOP S.A.S.
                 </p>
                 <p className="font-body text-sm text-white/40 mt-1.5">

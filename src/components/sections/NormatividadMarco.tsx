@@ -117,7 +117,7 @@ export default function NormatividadMarco() {
           </div>
           <h2
             id="normatividad-title"
-            className="font-display text-3xl font-bold text-brand-ink leading-tight mb-5 lg:text-4xl"
+            className="font-title text-3xl font-bold text-brand-ink leading-tight mb-5 lg:text-4xl"
           >
             Las normas que rigen nuestro trabajo
           </h2>
@@ -138,7 +138,7 @@ export default function NormatividadMarco() {
               {/* Encabezado del grupo */}
               <div className="lg:col-span-4 bg-brand-green p-8 lg:p-10">
                 <span
-                  className="font-display text-6xl font-bold text-white/[0.05] leading-none select-none block mb-4"
+                  className="font-title text-6xl font-bold text-white/[0.05] leading-none select-none block mb-4"
                   aria-hidden="true"
                 >
                   {grupo.numero}

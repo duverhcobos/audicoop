@@ -44,7 +44,7 @@ export default function NosotrosIdentidad() {
 
             <h2
               id="identidad-title"
-              className="font-display text-3xl font-bold text-brand-ink leading-tight mb-8 lg:text-4xl"
+              className="font-title text-3xl font-bold text-brand-ink leading-tight mb-8 lg:text-4xl"
             >
               <span className="text-brand-green">AUDI</span>
               {" "}+{" "}
@@ -74,33 +74,7 @@ export default function NosotrosIdentidad() {
               precooperativas, asociaciones mutuales y fondos de empleados.
             </p>
 
-            {/* Identidad cromática */}
-            <div className="mt-12 pt-10 border-t border-gray-100">
-              <div className="flex items-center gap-3 mb-6">
-                <div className="h-px w-6 bg-brand-gold shrink-0" aria-hidden="true" />
-                <span className="font-heading text-[10px] font-bold uppercase tracking-[0.22em] text-brand-gold">
-                  Nuestros colores
-                </span>
-              </div>
-              <div className="flex flex-col gap-4">
-                {IDENTIDAD_CROMATICA.map(({ color, nombre, significado }) => (
-                  <div key={nombre} className="flex items-center gap-5">
-                    <div
-                      className={`h-10 w-10 shrink-0 ${color}`}
-                      aria-hidden="true"
-                    />
-                    <div>
-                      <p className="font-heading text-sm font-bold text-brand-ink">
-                        {nombre}
-                      </p>
-                      <p className="font-body text-sm text-brand-gray-text">
-                        {significado}
-                      </p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
+           
           </div>
 
           {/* Panel derecho — visión */}
@@ -113,7 +87,7 @@ export default function NosotrosIdentidad() {
                 </span>
               </div>
 
-              <p className="font-display text-xl font-bold text-brand-ink leading-snug mb-10">
+              <p className="font-title text-xl font-bold text-brand-ink leading-snug mb-10">
                 Un equipo joven, con visión de crecimiento, que busca consolidarse
                 como firma líder en la región.
               </p>

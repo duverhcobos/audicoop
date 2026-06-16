@@ -23,7 +23,7 @@ export default function NoticiasGrid() {
             </div>
             <h2
               id="noticias-title"
-              className="font-display text-3xl font-bold text-brand-ink leading-tight lg:text-4xl"
+              className="font-title text-3xl font-bold text-brand-ink leading-tight lg:text-4xl"
             >
               Lo que necesita saber su organización
             </h2>
@@ -44,7 +44,7 @@ export default function NoticiasGrid() {
               {/* Columna izquierda — número + categoría */}
               <div className="lg:col-span-3 bg-white p-8 lg:p-10 flex flex-col justify-between">
                 <span
-                  className="font-display text-7xl font-bold text-brand-green/[0.06] leading-none select-none"
+                  className="font-title text-7xl font-bold text-brand-green/[0.06] leading-none select-none"
                   aria-hidden="true"
                 >
                   {String(index + 1).padStart(2, "0")}
@@ -63,7 +63,7 @@ export default function NoticiasGrid() {
               <div className="lg:col-span-9 bg-white p-8 lg:p-10">
                 <h3
                   id={`noticia-${noticia.id}`}
-                  className="font-display text-xl font-bold text-brand-ink leading-snug mb-4"
+                  className="font-title text-xl font-bold text-brand-ink leading-snug mb-4"
                 >
                   {noticia.titulo}
                 </h3>

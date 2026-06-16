@@ -32,7 +32,7 @@ export default function TrabajaActividades() {
             </div>
             <h2
               id="actividades-title"
-              className="font-display text-3xl font-bold text-white leading-tight lg:text-4xl"
+              className="font-title text-3xl font-bold text-white leading-tight lg:text-4xl"
             >
               Un entorno especializado con impacto real en el sector solidario
             </h2>
@@ -49,7 +49,7 @@ export default function TrabajaActividades() {
           {ACTIVIDADES.map((actividad, i) => (
             <div key={i} className="bg-brand-green p-8 lg:p-10">
               <span
-                className="font-display text-5xl font-bold text-white/[0.05] leading-none select-none block mb-5"
+                className="font-title text-5xl font-bold text-white/[0.05] leading-none select-none block mb-5"
                 aria-hidden="true"
               >
                 {String(i + 1).padStart(2, "0")}

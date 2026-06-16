@@ -37,7 +37,7 @@ export default function PageHero({ title, subtitle }: PageHeroProps) {
 
         <h1
           id="page-hero-title"
-          className="font-display text-3xl font-bold text-white leading-tight sm:text-4xl lg:text-5xl"
+          className="font-title text-3xl font-bold text-white leading-tight sm:text-4xl lg:text-5xl"
         >
           {title}
         </h1>

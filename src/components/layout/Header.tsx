@@ -69,7 +69,7 @@ export default function Header() {
                 />
               </div>
               <div className="flex items-baseline gap-1.5">
-                <span className="font-display text-xl font-bold text-brand-green tracking-tight">
+                <span className="font-title text-xl font-bold text-brand-green tracking-tight">
                   AUDICOOP
                 </span>
                 <span className="font-heading text-[10px] font-semibold text-brand-gray-subtle tracking-[0.25em] uppercase border-l border-brand-gold/40 pl-2">

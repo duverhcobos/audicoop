@@ -16,7 +16,7 @@ export default function Footer() {
           {/* Columna 1 — Marca */}
           <div className="md:col-span-5 flex flex-col gap-5">
             <Link href="/" className="flex items-baseline gap-2" aria-label="AUDICOOP S.A.S. — Inicio">
-              <span className="font-display text-2xl font-bold tracking-tight text-white">AUDICOOP</span>
+              <span className="font-title text-2xl font-bold tracking-tight text-white">AUDICOOP</span>
               <span className="font-heading text-[10px] font-semibold text-white/40 tracking-[0.25em] uppercase border-l border-brand-gold/30 pl-2">
                 S.A.S.
               </span>

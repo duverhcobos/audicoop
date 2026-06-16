@@ -32,7 +32,7 @@ export default function AboutSection() {
               </p>
               <h2
                 id="about-title"
-                className="font-display text-3xl font-bold text-white leading-tight lg:text-4xl"
+                className="font-title text-3xl font-bold text-white leading-tight lg:text-4xl"
               >
                 Una firma nacida del cooperativismo
               </h2>
@@ -45,7 +45,7 @@ export default function AboutSection() {
                   key={label}
                   className={`py-7 ${i < STATS.length - 1 ? "border-b border-white/10" : ""}`}
                 >
-                  <p className="font-display text-4xl font-bold text-brand-gold leading-none lg:text-5xl">
+                  <p className="font-title text-4xl font-bold text-brand-gold leading-none lg:text-5xl">
                     {value}
                   </p>
                   <p className="font-body text-sm text-white/50 mt-2 leading-snug">
@@ -59,7 +59,7 @@ export default function AboutSection() {
           {/* Panel derecho — teaser con diferencial y CTA a /nosotros */}
           <div className="lg:col-span-8 bg-white p-10 lg:p-14 flex flex-col justify-between gap-10">
             <div>
-              <p className="font-display text-2xl font-bold text-brand-green leading-tight mb-7 lg:text-3xl border-b border-gray-100 pb-7">
+              <p className="font-title text-2xl font-bold text-brand-green leading-tight mb-7 lg:text-3xl border-b border-gray-100 pb-7">
                 <em className="not-italic">AUDI</em>
                 {" "}+{" "}
                 <em className="not-italic">COOP</em>
