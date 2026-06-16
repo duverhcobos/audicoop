@@ -70,7 +70,7 @@ export default function NosotrosPage() {
           </div>
           <div className="border border-gray-100 overflow-hidden">
             <Image
-              src="/organigrama.jpeg"
+              src="/organigrama.png"
               alt="Organigrama de AUDICOOP S.A.S. — Asamblea, Junta Directiva, Gerente, y departamentos Financiero, Talento Humano y Servicios"
               width={1200}
               height={800}
