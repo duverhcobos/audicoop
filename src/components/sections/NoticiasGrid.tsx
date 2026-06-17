@@ -44,7 +44,7 @@ export default function NoticiasGrid() {
               {/* Columna izquierda — número + categoría */}
               <div className="lg:col-span-3 bg-white p-8 lg:p-10 flex flex-col justify-between">
                 <span
-                  className="font-title text-7xl font-bold text-brand-green/[0.06] leading-none select-none"
+                  className="font-title text-7xl font-bold text-brand-green leading-none select-none"
                   aria-hidden="true"
                 >
                   {String(index + 1).padStart(2, "0")}

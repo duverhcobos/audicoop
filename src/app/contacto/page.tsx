@@ -26,7 +26,7 @@ const DATOS_CONTACTO = [
   {
     icono: Phone,
     label: "Teléfono",
-    valor: "[PENDIENTE]",
+    valor: "3223606714",
     href: undefined,
   },
   {

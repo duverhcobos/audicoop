@@ -15,6 +15,10 @@ export default function NormatividadPage() {
       <PageHero
         title="Marco Normativo"
         subtitle="Las normas que rigen nuestro trabajo y el sector cooperativo colombiano."
+        cta={{
+          label: "Manual de Control de calidad",
+          href: "https://drive.google.com/file/d/1dYK3Hb-uYStiDh3M0ZlCTPCdDhvApRpp/view?usp=drivesdk",
+        }}
       />
       <NormatividadMarco />
       <CtaSection />

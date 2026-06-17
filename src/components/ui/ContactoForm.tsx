@@ -93,7 +93,7 @@ export default function ContactoForm() {
             autoComplete="tel"
             {...register("telefono")}
             className="border border-gray-200 bg-white px-4 py-3 font-body text-sm text-brand-ink placeholder:text-brand-gray-subtle/50 focus:border-brand-green focus:outline-none"
-            placeholder="[PENDIENTE]"
+            placeholder="Número de contacto"
             aria-describedby={errors.telefono ? "telefono-error" : undefined}
           />
           {errors.telefono && (

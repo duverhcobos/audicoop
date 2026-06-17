@@ -39,14 +39,6 @@ const CONVENIOS: Convenio[] = [
     tipo: "institucional",
   },
   {
-    id: "powerbi",
-    nombre: "Power BI",
-    logo: "/convenios/powerbi.png",
-    descripcion:
-      "Herramienta tecnológica que fortalece la presentación de informes mediante reportes dinámicos, interactivos y basados en datos.",
-    tipo: "tecnologico",
-  },
-  {
     id: "supersolidaria",
     nombre: "Supersolidaria",
     logo: "/convenios/supersolidaria.png",

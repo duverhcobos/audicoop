@@ -15,7 +15,7 @@ export default function ServiceCard({ service, index = 0 }: ServiceCardProps) {
     <article className="group relative bg-white p-8 lg:p-10 overflow-hidden transition-colors duration-500 hover:bg-brand-green">
       {/* Número fantasma de fondo */}
       <span
-        className="absolute -top-2 right-4 font-title text-8xl font-bold text-brand-green/[0.06] select-none leading-none transition-colors duration-500 group-hover:text-white/[0.07]"
+        className="absolute -top-2 right-4 font-title text-8xl font-bold text-brand-green/[0.1] select-none leading-none transition-colors duration-500 group-hover:text-white/[0.07]"
         aria-hidden="true"
       >
         {num}

@@ -30,7 +30,7 @@ export default function ServiceDetailFull({ service, index }: ServiceDetailFullP
         <div className="lg:col-span-4">
           {/* Número fantasma */}
           <span
-            className="block select-none font-title text-8xl font-bold leading-none text-brand-green/[0.07]"
+            className="block select-none font-title text-8xl font-bold leading-none text-brand-green"
             aria-hidden="true"
           >
             {num}

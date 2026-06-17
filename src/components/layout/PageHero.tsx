@@ -1,9 +1,13 @@
 interface PageHeroProps {
   title: string;
   subtitle?: string;
+  cta?: {
+    label: string;
+    href: string;
+  };
 }
 
-export default function PageHero({ title, subtitle }: PageHeroProps) {
+export default function PageHero({ title, subtitle, cta }: PageHeroProps) {
   return (
     <section
       className="relative bg-brand-green-dark overflow-hidden py-16 lg:py-24"
@@ -46,6 +50,17 @@ export default function PageHero({ title, subtitle }: PageHeroProps) {
           <p className="mt-4 font-body text-base text-white/55 max-w-2xl leading-relaxed">
             {subtitle}
           </p>
+        )}
+
+        {cta && (
+          <a
+            href={cta.href}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 inline-flex items-center rounded-full border border-brand-gold/40 bg-white/5 px-5 py-2.5 font-heading text-xs font-bold uppercase tracking-[0.14em] text-white transition hover:border-brand-gold hover:bg-brand-gold/10"
+          >
+            {cta.label}
+          </a>
         )}
       </div>
     </section>

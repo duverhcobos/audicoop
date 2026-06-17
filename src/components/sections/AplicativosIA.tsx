@@ -41,6 +41,16 @@ export default function AplicativosIA() {
                     Aplicativo de análisis documental
                   </h3>
                 </div>
+                <div>
+                  <a
+                    href="https://auditor-smart-insight.lovable.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center rounded-full border border-brand-gold/40 bg-white px-4 py-2 font-heading text-[11px] font-bold uppercase tracking-[0.12em] text-brand-ink transition hover:border-brand-gold hover:bg-brand-gold/10"
+                  >
+                    Probar aplicativo
+                  </a>
+                </div>
                 <p className="font-body text-sm text-brand-gray-text leading-relaxed">
                   Nuestro aplicativo, desarrollado por nuestro equipo y construido en la plataforma
                   Lovable, es una herramienta de análisis documental impulsada por Gemini que permite

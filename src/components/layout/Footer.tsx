@@ -69,7 +69,7 @@ export default function Footer() {
                 <Phone size={14} className="shrink-0 text-brand-gold/70" aria-hidden="true" />
                 <span className="font-body text-sm text-white/40">
                   {/* [PENDIENTE: teléfono] */}
-                  [Teléfono pendiente]
+                  3223606714      
                 </span>
               </li>
               <li className="flex items-center gap-3">

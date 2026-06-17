@@ -18,6 +18,10 @@ export default function NosotrosPage() {
       <PageHero
         title="Quiénes Somos"
         subtitle="Una firma de auditoría nacida del cooperativismo colombiano, con sede en Bucaramanga, Santander."
+        cta={{
+          label: "Portafolio de Servicios",
+          href: "https://drive.google.com/file/d/1OIDnAmSbIX9X3-LFBY11xcrf2OaMMckC/view?usp=drivesdk",
+        }}
       />
       <NosotrosIdentidad />
 
